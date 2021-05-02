@@ -1,0 +1,90 @@
+body {
+    overflow-x: hidden;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 90px 0px;
+    background-color: rgba(0, 0, 0, 0.384);
+}
+
+.header img {
+    width: 80vw;
+}
+
+.sec1 {
+    width: 100vw;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.384);
+    padding-bottom: 30px;
+}
+
+.sec1 .profile {
+    width: 70vw;
+    border-radius: 50%;
+    border: 20px solid;
+    border-color: #FC3CA5;
+}
+
+.wish {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px 0px;
+}
+
+.wish .card {
+    width: 80vw !important;
+    border-radius: 40px;
+    overflow: hidden;
+    border-color: rgba(0, 0, 0, 0.966);
+}
+
+ol {
+    list-style-type: none;
+}
+
+h1 {
+    font-size: 20px;
+    text-transform: none;
+}
+
+#confetti {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.bg {
+    /* The image used */
+    background-image: url("./images/1269989.jpg");
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -888;
+    /* Full height */
+    height: 100%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#footer {
+    background-color: rgba(255, 255, 255, 0.815);
+    padding: 10px 40px;
+    width: 50vw;
+    margin: auto;
+    color: red;
+    border-radius: 15px;
+}
+
+#hearts {
+    color: red;
+}
